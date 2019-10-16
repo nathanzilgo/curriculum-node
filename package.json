@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "fs": "0.0.1-security",
     "pdfkit": "^0.10.0"
   }
 }
