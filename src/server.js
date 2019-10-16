@@ -1,6 +1,7 @@
 const express = require('express');
 const document = require('pdfkit');
 const fs = require('fs');
+const path = require('path');
 
 const app = express();
 
@@ -13,4 +14,6 @@ app.get('/', (request, response) => {
     });
 });
 
-app.listen(7071);
+app.listen(process.env.PORT || 4000, function () {
+    console.log('Hi :D');
+});
