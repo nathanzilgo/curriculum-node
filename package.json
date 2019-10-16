@@ -2,10 +2,10 @@
   "name": "curriculo",
   "version": "1.0.0",
   "description": "Curriculo ufcg para o heroku",
-  "main": "server.js",
+  "main": "/src/server.js",
   "scripts": {
     "test": "test",
-    "start": "nodemon server.js"
+    "start": "nodemon /src/server.js"
   },
   "keywords": [
     "nodejs",
