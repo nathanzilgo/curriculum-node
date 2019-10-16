@@ -1,0 +1,20 @@
+{
+  "name": "curriculo",
+  "version": "1.0.0",
+  "description": "Curriculo ufcg para o heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "curriculum"
+  ],
+  "author": "Nathan Fernandes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pdfkit": "^0.10.0"
+  }
+}
