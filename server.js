@@ -5,10 +5,11 @@ const path = require('path');
 
 const app = express();
 
-app.get('/', (request, response) => {
-    var curriculum = "./lib/historico_118110342_203258685.pdf";
+const pdf_file = "./lib/historico_2019.2_fim.pdf";
 
-    fs.readFile(curriculum, (err, data) => {
+app.get('/', (request, response) => {
+
+    fs.readFile(pdf_file, (err, data) => {
         response.contentType("application/pdf");
         response.send(data);
     });
